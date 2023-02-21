@@ -66,20 +66,22 @@
         var cantidad_hijos;
         var cantidad_hijos_numero = 0;
         if ("SI" == hijos.toUpperCase()) {
-          cantidad_hijos = prompt("¿Cuántos hijos tiene? ingrese solo números");
+        var  cantidad_hijos = prompt("¿Cuántos hijos tiene? ingrese solo números");
         }
         /**
          * 1. convierta la cantidad de hijos a numero
          */
+        
 
-        cantidad_hijos_numero = parseInt(cantidad_hijos);
+      var cantidad_hijos_numero = parseInt(cantidad_hijos);
 
         // validar si tiene propiedades
         var propiedades = prompt("¿Tiene propiedades?, si/no");
 
         // validar cantidad de propiedades
+        var cantidad_propiedad;
         if ("SI" == propiedades.toUpperCase()) {
-          cantidad_propiedad = prompt("¿Cuántos propiedades tiene? ingrese solo números");
+        var cantidad_propiedad = prompt("¿Cuántos propiedades tiene? ingrese solo números");
         }
 
         /**
